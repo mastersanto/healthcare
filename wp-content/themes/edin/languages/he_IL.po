@@ -1,0 +1,463 @@
+# Translation of Edin in Hebrew
+# This file is distributed under the same license as the Edin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-02-09 08:10:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Edin\n"
+
+#: functions.php:304 functions.php:320
+msgid "expand child menu"
+msgstr "הצג תפריט"
+
+#: functions.php:305 functions.php:321
+msgid "collapse child menu"
+msgstr "הסתר תפריט"
+
+#. translators: %s: Name of current post. Visible to screen readers only.
+#: content.php:28
+msgid "Continue reading %s"
+msgstr " להמשיך לקרוא את %s"
+
+#. translators: %s: Name of page. Visible to screen readers only.
+#: content-grid.php:19
+msgid "Read more %s"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Pages: show breadcrumb navigation"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Featured Image: remove filter"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/full-width-page.php
+msgid "Full Width Page"
+msgstr "עמוד רוחב מלא"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/grid-page.php
+msgid "Grid Page"
+msgstr "עמוד רשת"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
+msgid "Alternate Sidebar Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/front-page.php
+msgid "Front Page"
+msgstr "עמוד ראשי"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
+msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "תוצאות החיפוש: %s"
+
+#: inc/template-tags.php:163
+msgid "% Comments"
+msgstr "% תגובות"
+
+#: inc/template-tags.php:163
+msgid "1 Comment"
+msgstr "תגובה אחת"
+
+#: inc/template-tags.php:163
+msgid "Leave a comment"
+msgstr "השארת תגובה"
+
+#: inc/template-tags.php:157
+msgid "Tagged %1$s"
+msgstr "%1$s תוייג"
+
+#: inc/template-tags.php:151
+msgid "Posted in %1$s"
+msgstr "פורסם ב-%1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:149 inc/template-tags.php:155
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:82
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "פורסם בתאריך %s"
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "מאת %s"
+
+#: inc/template-tags.php:144
+msgid "All %s posts"
+msgstr "כל הרשומות של %s"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&larr;</span>"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&rarr;</span> %title"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "ניווט ברשומות"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "רשומות חדשות יותר <span class=\"meta-nav\">&larr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&rarr;</span> רשומות ישנות יותר"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "ניווט בין הרשומות"
+
+#: inc/customizer.php:68
+msgid "Square (1:1)"
+msgstr "ריבוע (1:1)"
+
+#: inc/customizer.php:105
+msgid "Header: show search form"
+msgstr "הדר: להציג טופס חיפוש"
+
+#: inc/customizer.php:117
+msgid "Front Page: show title"
+msgstr "עמוד ראשי: להציג כותרת"
+
+#: inc/customizer.php:129
+msgid "Front Page: Featured Page One"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Front Page: Featured Page Two"
+msgstr ""
+
+#: inc/customizer.php:153
+msgid "Front Page: Featured Page Three"
+msgstr ""
+
+#: inc/extras.php:104
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#: inc/customizer.php:62
+msgid "Thumbnail Aspect Ratio"
+msgstr "יחס גובה ורוחב של תמונות מוקטנות"
+
+#: inc/customizer.php:67
+msgid "Landscape (4:3)"
+msgstr "רוחבי (4:3)"
+
+#: inc/customizer.php:52
+msgid "Right"
+msgstr "לימין"
+
+#: inc/customizer.php:51
+msgid "Left"
+msgstr "לשמאל"
+
+#: inc/customizer.php:35
+msgid "Classic"
+msgstr "קלאסי"
+
+#: inc/customizer.php:46
+msgid "Sidebar Position"
+msgstr "מיקום עמודה צידית"
+
+#: inc/customizer.php:29
+msgid "Menu Style"
+msgstr "סגנון תפריט"
+
+#: inc/customizer.php:34
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: inc/customizer.php:19
+msgid "Theme Options"
+msgstr "אפשרויות"
+
+#: header.php:91
+msgid "Search"
+msgstr "חיפוש"
+
+#: header.php:60
+msgid "Menu"
+msgstr "תפריט"
+
+#. translators: To add an additional PT Serif character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:233
+msgctxt "PT Serif font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. translators: If there are characters in your language that are not supported
+#. * by PT Mono, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:261
+msgctxt "PT Mono font: on or off"
+msgid "on"
+msgstr "off"
+
+#. translators: To add an additional PT Mono character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:265
+msgctxt "PT Mono font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: functions.php:150
+msgid "Use this widget area to display widgets in the third column of the footer"
+msgstr ""
+
+#: functions.php:157
+msgid "Front Page One"
+msgstr "עמוד ראשי 1"
+
+#: functions.php:159
+msgid "Use this widget area to display widgets in the first column of your Front Page"
+msgstr ""
+
+#: functions.php:166
+msgid "Front Page Two"
+msgstr "עמוד ראשי 2"
+
+#: functions.php:168
+msgid "Use this widget area to display widgets in the second column of your Front Page"
+msgstr ""
+
+#: functions.php:175
+msgid "Front Page Three"
+msgstr "עמוד ראשי 3"
+
+#: functions.php:177
+msgid "Use this widget area to display widgets in the third column of your Front Page"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. * by PT Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:197
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr "off"
+
+#. translators: To add an additional PT Sans character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:201
+msgctxt "PT Sans font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. translators: If there are characters in your language that are not supported
+#. * by PT Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:229
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:130
+msgid "Footer One"
+msgstr "חלק תחתון ראשון"
+
+#: functions.php:132
+msgid "Use this widget area to display widgets in the first column of the footer"
+msgstr ""
+
+#: functions.php:139
+msgid "Footer Two"
+msgstr "חלק תחתון שני"
+
+#: functions.php:141
+msgid "Use this widget area to display widgets in the second column of the footer"
+msgstr ""
+
+#: functions.php:148
+msgid "Footer Three"
+msgstr "חלק תחתון שלישי"
+
+#: functions.php:122
+msgid "Sidebar"
+msgstr " סרגל צדדי"
+
+#: functions.php:68
+msgid "Footer Menu"
+msgstr "תפריט כותרת תחתית"
+
+#: functions.php:67
+msgid "Secondary Menu"
+msgstr "תפריט משני"
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: footer.php:20
+msgid "Theme: %1$s by %2$s."
+msgstr "ערכת עיצוב: %1$s של %2$s"
+
+#: footer.php:18
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
+
+#: footer.php:18
+msgid "http://wordpress.org/"
+msgstr "http://he.wordpress.org/"
+
+#: content-none.php:24
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+
+#: content-none.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות שוב עם מילות חיפוש שונות."
+
+#: content-none.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
+
+#: content-hero.php:26 content-page.php:15 content-single.php:23 content.php:33
+msgid "Pages:"
+msgstr ":עמודים"
+
+#: content-grid.php:24 content-hero.php:33 content-page.php:23
+#: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
+#: inc/template-tags.php:167
+msgid "Edit"
+msgstr "עריכה"
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: comments.php:47
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "תגובות חדשות יותר <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:46
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> תגובות מוקדמות יותר"
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "ניווט בתגובות"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+
+#: archive.php:81 search.php:20
+msgid "Nothing Found"
+msgstr "לא מצאתי כלום"
+
+#: archive.php:61
+msgid "Chats"
+msgstr "צ'טים"
+
+#: archive.php:64
+msgid "Archives"
+msgstr "ארכיון"
+
+#: archive.php:58
+msgid "Audios"
+msgstr "קבצי אודיו"
+
+#: archive.php:55
+msgid "Statuses"
+msgstr "סטטוסים"
+
+#: archive.php:52
+msgid "Links"
+msgstr "קישורים"
+
+#: archive.php:49
+msgid "Quotes"
+msgstr "ציטוטים"
+
+#: archive.php:46
+msgid "Videos"
+msgstr "סרטונים"
+
+#: archive.php:43
+msgid "Images"
+msgstr "תמונות"
+
+#: archive.php:40
+msgid "Galleries"
+msgstr "גלריות"
+
+#: archive.php:37
+msgid "Asides"
+msgstr "קצרצרים"
+
+#: archive.php:34
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:34
+msgid "Year: %s"
+msgstr "שנה: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:28
+msgid "Day: %s"
+msgstr "יום: %s"
+
+#: archive.php:31
+msgid "Month: %s"
+msgstr "חודש: %s"
+
+#: archive.php:25
+msgid "Author: %s"
+msgstr "מחבר: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "כדאי לחפש בארכיון החודשי. %1$s"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "לא הצלחנו למצוא שום דבר בכתובת זו. כדאי לנסות את הקישורים הבאים, או את החיפוש."
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "קטגוריות בולטות"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס. העמוד שביקשת אינו קיים."

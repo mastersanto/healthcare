@@ -1,0 +1,463 @@
+# Translation of Edin in Spanish (Spain)
+# This file is distributed under the same license as the Edin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-02-09 08:29:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Edin\n"
+
+#: functions.php:304 functions.php:320
+msgid "expand child menu"
+msgstr "expande el menú inferior"
+
+#: functions.php:305 functions.php:321
+msgid "collapse child menu"
+msgstr "plegar menú inferior"
+
+#. translators: %s: Name of current post. Visible to screen readers only.
+#: content.php:28
+msgid "Continue reading %s"
+msgstr "Continúa leyendo %s"
+
+#. translators: %s: Name of page. Visible to screen readers only.
+#: content-grid.php:19
+msgid "Read more %s"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Pages: show breadcrumb navigation"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Featured Image: remove filter"
+msgstr "Imagen destacada: eliminar filtro"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/full-width-page.php
+msgid "Full Width Page"
+msgstr "Página de ancho completo"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/grid-page.php
+msgid "Grid Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/alternate-sidebar-page.php
+msgid "Alternate Sidebar Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/edin/page-templates/front-page.php
+msgid "Front Page"
+msgstr "Portada"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/edin/style.css
+msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda para: %s"
+
+#: inc/template-tags.php:163
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: inc/template-tags.php:163
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: inc/template-tags.php:163
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: inc/template-tags.php:157
+msgid "Tagged %1$s"
+msgstr "Etiquetado como %1$s"
+
+#: inc/template-tags.php:151
+msgid "Posted in %1$s"
+msgstr "Publicado en %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:149 inc/template-tags.php:155
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:82
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicado el %s"
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "por %s"
+
+#: inc/template-tags.php:144
+msgid "All %s posts"
+msgstr "Las %s entradas"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Navegación de entradas"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Entradas más nuevas <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Entradas más antiguas"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Ir a las entradas"
+
+#: inc/customizer.php:68
+msgid "Square (1:1)"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Header: show search form"
+msgstr "Cabecera: mostrar formulario de búsqueda"
+
+#: inc/customizer.php:117
+msgid "Front Page: show title"
+msgstr "Portada: mostrar título"
+
+#: inc/customizer.php:129
+msgid "Front Page: Featured Page One"
+msgstr "Portada: Página destacada uno"
+
+#: inc/customizer.php:141
+msgid "Front Page: Featured Page Two"
+msgstr "Portada: Página destacada dos"
+
+#: inc/customizer.php:153
+msgid "Front Page: Featured Page Three"
+msgstr "Portada: Portada: Página destacada tres"
+
+#: inc/extras.php:104
+msgid "Page %s"
+msgstr "Página %s"
+
+#: inc/customizer.php:62
+msgid "Thumbnail Aspect Ratio"
+msgstr "Relación de aspecto de la miniatura"
+
+#: inc/customizer.php:67
+msgid "Landscape (4:3)"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/customizer.php:51
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/customizer.php:35
+msgid "Classic"
+msgstr "Clásico"
+
+#: inc/customizer.php:46
+msgid "Sidebar Position"
+msgstr "Posición de la barra lateral"
+
+#: inc/customizer.php:29
+msgid "Menu Style"
+msgstr "Estilo del menú"
+
+#: inc/customizer.php:34
+msgid "Default"
+msgstr "Por Defecto"
+
+#: inc/customizer.php:19
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#: header.php:91
+msgid "Search"
+msgstr "Buscar"
+
+#: header.php:60
+msgid "Menu"
+msgstr "Menú"
+
+#. translators: To add an additional PT Serif character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:233
+msgctxt "PT Serif font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. translators: If there are characters in your language that are not supported
+#. * by PT Mono, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:261
+msgctxt "PT Mono font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: To add an additional PT Mono character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:265
+msgctxt "PT Mono font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Saltar al contenido."
+
+#: functions.php:150
+msgid "Use this widget area to display widgets in the third column of the footer"
+msgstr "Use esta área de widgets para mostrarlos en la tercera columna del pie de página"
+
+#: functions.php:157
+msgid "Front Page One"
+msgstr "Portada uno"
+
+#: functions.php:159
+msgid "Use this widget area to display widgets in the first column of your Front Page"
+msgstr "Use esta área de widgets para mostrarlos en la primera columna de su página principal"
+
+#: functions.php:166
+msgid "Front Page Two"
+msgstr "Portada dos"
+
+#: functions.php:168
+msgid "Use this widget area to display widgets in the second column of your Front Page"
+msgstr "Use esta área de widgets para mostrarlos en la segunda columna de su Portada"
+
+#: functions.php:175
+msgid "Front Page Three"
+msgstr "Portada tres"
+
+#: functions.php:177
+msgid "Use this widget area to display widgets in the third column of your Front Page"
+msgstr "Use esta área de widgets para mostrarlos en la tercera columna de su página principal"
+
+#. translators: If there are characters in your language that are not supported
+#. * by PT Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:197
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: To add an additional PT Sans character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:201
+msgctxt "PT Sans font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. translators: If there are characters in your language that are not supported
+#. * by PT Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:229
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:130
+msgid "Footer One"
+msgstr "Pie de página uno"
+
+#: functions.php:132
+msgid "Use this widget area to display widgets in the first column of the footer"
+msgstr "Use esta área de widgets para mostrarlos en la primera columna del pie de página"
+
+#: functions.php:139
+msgid "Footer Two"
+msgstr "Pie de página dos"
+
+#: functions.php:141
+msgid "Use this widget area to display widgets in the second column of the footer"
+msgstr "Use esta área de widgets para mostrarlos en la segunda columna del pie de página"
+
+#: functions.php:148
+msgid "Footer Three"
+msgstr "Pie de página tres"
+
+#: functions.php:122
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:68
+msgid "Footer Menu"
+msgstr "Menú a pie de página"
+
+#: functions.php:67
+msgid "Secondary Menu"
+msgstr "Menú secundario"
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+#: footer.php:20
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s."
+
+#: footer.php:18
+msgid "Proudly powered by %s"
+msgstr "Funciona con %s"
+
+#: footer.php:18
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-none.php:24
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que estás buscando. Tal vez la búsqueda te pueda ayudar."
+
+#: content-none.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero nada coincidió con su búsqueda. Por favor inténtalo de nuevo con otras palabras clave."
+
+#: content-none.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: content-hero.php:26 content-page.php:15 content-single.php:23 content.php:33
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: content-grid.php:24 content-hero.php:33 content-page.php:23
+#: eventbrite/eventbrite-index.php:52 eventbrite/eventbrite-single.php:37
+#: inc/template-tags.php:167
+msgid "Edit"
+msgstr "Editar"
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:47
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Comentarios nuevos <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:46
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Comentarios antiguos"
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: archive.php:81 search.php:20
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: archive.php:61
+msgid "Chats"
+msgstr "Chat"
+
+#: archive.php:64
+msgid "Archives"
+msgstr "Archivos"
+
+#: archive.php:58
+msgid "Audios"
+msgstr "Audios"
+
+#: archive.php:55
+msgid "Statuses"
+msgstr "Estados"
+
+#: archive.php:52
+msgid "Links"
+msgstr "Enlaces"
+
+#: archive.php:49
+msgid "Quotes"
+msgstr "Citas"
+
+#: archive.php:46
+msgid "Videos"
+msgstr "Vídeos"
+
+#: archive.php:43
+msgid "Images"
+msgstr "Imágenes"
+
+#: archive.php:40
+msgid "Galleries"
+msgstr "Galerías"
+
+#: archive.php:37
+msgid "Asides"
+msgstr "Apartados"
+
+#: archive.php:34
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:34
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:28
+msgid "Day: %s"
+msgstr "Día: %s"
+
+#: archive.php:31
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#: archive.php:25
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Trata de buscar en los archivos mensuales. %1$s"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se encontró nada en esta ubicación. ¿Quizás pruebes con uno de los enlaces de abajo o una búsqueda?"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Categorías más usadas"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! Esa página no se puede encontrar."
