@@ -19,7 +19,7 @@
 			<?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
 				<div class="footer-widget">
 					<div class="widget-title">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+						<a class="healthcare-link" href="http://www.healthcare.com">Healthcare.com</a>
 					</div>
 					<?php dynamic_sidebar( 'sidebar-3' ); ?>
 				</div><!-- .footer-widget -->

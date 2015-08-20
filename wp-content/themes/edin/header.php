@@ -32,19 +32,7 @@
 
 			<div class="content-wrapper clear">
 				<div class="site-branding">
-					<?php
-						edin_the_site_logo();
-						if ( is_front_page() && is_home() ) : ?>
-							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-						<?php else : ?>
-							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-						<?php endif;
-
-						$description = get_bloginfo( 'description', 'display' );
-						if ( $description || is_customize_preview() ) : ?>
-							<p class="site-description"><?php echo $description; ?></p>
-						<?php endif;
-					?>
+					<a class="healthcare-link" href="http://www.healthcare.com">Healthcare.com</a>
 				</div><!-- .site-branding -->
 
 				<?php if ( is_active_sidebar( 'sidebar-header-top' ) ) : ?>
@@ -99,34 +87,50 @@
 			<?php get_search_form(); ?>
 		</div><!-- .search-wrapper -->
 		<?php endif; ?>
-	</header><!-- #masthead -->
 
-	<div class="hero-wrapper">
-		<div class="hero-image-wrapper">
-			<?php if ( is_home() && get_header_image() ) : ?>
-			<img class="hero-image" src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">			
-			<?php endif; // End header image check. ?>
-		</div>
 
-		<div class="hero-content-wrapper content-wrapper clear">
-			<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+		<div class="hero-wrapper">
+			<div class="hero-image-wrapper">
+				<?php if ( is_home() && get_header_image() ) : ?>
+				<img class="hero-image" src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">			
+				<?php endif; // End header image check. ?>
+			</div>
 
-			<?php if ( is_active_sidebar( 'sidebar-banner-assitance' ) ) : ?>
-				<?php dynamic_sidebar( 'sidebar-banner-assitance' ); ?>
-			<?php endif; ?>
+			<div class="hero-content-wrapper content-wrapper clear">
 
-			<?php if ( is_home() && is_active_sidebar( 'sidebar-banner-quotes' ) ) : ?>
-				<?php dynamic_sidebar( 'sidebar-banner-quotes' ); ?>
-			<?php endif; ?>
-		</div>	
+				<?php
+					edin_the_site_logo();
+					if ( is_front_page() && is_home() ) : ?>
+						<h1 class="site-title"><a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<?php else : ?>
+						<p class="site-title"><a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+					<?php endif;
 
-		<?php if ( is_home() && is_active_sidebar( 'home-featured' ) ) : ?>	
-		<div id="home-featured">
-			<div class="content-wrapper clear">
-				<?php dynamic_sidebar( 'home-featured' ); ?>
+					$description = get_bloginfo( 'description', 'display' );
+					if ( $description || is_customize_preview() ) : ?>
+						<p class="site-description"><?php echo $description; ?></p>
+					<?php endif;
+				?>
+
+				<?php if ( is_active_sidebar( 'sidebar-banner-assitance' ) ) : ?>
+					<?php dynamic_sidebar( 'sidebar-banner-assitance' ); ?>
+				<?php endif; ?>
+
+				<?php if ( is_home() && is_active_sidebar( 'sidebar-banner-quotes' ) ) : ?>
+					<?php dynamic_sidebar( 'sidebar-banner-quotes' ); ?>
+				<?php endif; ?>
+			</div>	
+
+			<?php if ( is_home() && is_active_sidebar( 'home-featured' ) ) : ?>	
+			<div id="home-featured">
+				<div class="content-wrapper clear">
+					<?php dynamic_sidebar( 'home-featured' ); ?>
+				</diV>
 			</diV>
-		</diV>
-		<?php endif; // End Home Highlights check. ?>
-	</div><!-- .hero-wrapper -->
+			<?php endif; // End Home Highlights check. ?>
+		</div><!-- .hero-wrapper -->
+
+
+	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

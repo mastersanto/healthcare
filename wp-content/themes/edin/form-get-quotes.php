@@ -1,4 +1,4 @@
 <form action="">
-	<input type="text" placeholder="Zip Code">
+	<input class="get-quotes-input" type="text" placeholder="Zip Code">
 	<button type="submit">Get Quotes</button>
 </form>

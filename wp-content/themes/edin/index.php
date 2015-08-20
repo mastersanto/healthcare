@@ -22,7 +22,8 @@ get_header(); ?>
 				<?php //if ( have_posts() ) : ?>
 
 
-					<h2 class="answers-title"><?php echo category_description( get_category_by_slug('answers')->term_id ); ?></h2>
+					<!--h2 class="answers-title"><?php echo category_description( get_category_by_slug('answers')->term_id ); ?></h2-->
+					<h2 class="answers-title">Get Health Insurance <span>Answers</span></h2>
 
 					<?php if ( is_home() && ! is_front_page() ) : ?>
 						<header>

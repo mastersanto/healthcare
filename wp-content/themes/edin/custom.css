@@ -16,6 +16,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
+p {
+	font-weight: 300;
+}
 a.button, a.button-minimal {
     padding: 0;
     font-weight: normal;
@@ -40,9 +43,6 @@ a.button, a.button-minimal {
 
 .site-header {
     position: relative;
-    top: 0;
-    width: 100%;
-    z-index: 2;
 }
 .header-wrapper {
 	background-color: white;
@@ -53,34 +53,32 @@ a.button, a.button-minimal {
 	position: fixed;
 	top: 0;
     width: 100%;
+    z-index: 2;
 }
 .site-branding {
-	margin: 7px 0 0 0;
+	margin: 0;
 }
-.site-title {
+.healthcare-link {
 	color: #4bcc4e;
 	font-size: 18px;
     font-weight: normal;
 	line-height: 18px;
-	margin: 0;
     min-height: 18px;
     text-transform: none;
 }
 .header-wrapper .widget.widget-social-media {
+	float: right;
     margin: 5px 0 0 0;
     padding: 0;
 }
 .widget_nav_menu ul[id^="menu-social"] li {
-	margin-bottom: 0;
+	margin: 0 12px 0 0;
 }
 .widget_nav_menu ul[id^="menu-social"] li:last-child {
-	margin-left: 0;
+	margin-right: 0;
 }
-.content-wrapper {
-}
-.header-wrapper .widget {
-	float: right;
-    margin-top: 50px;
+.widget-social-media a {
+	color: #bbb;
 }
 
 /* Hero
@@ -118,6 +116,10 @@ a.button, a.button-minimal {
     top: 0;
     z-index: 1;
 }
+.site-title {
+	float: left;
+	margin: 0;
+}
 .hero-wrapper .logo {
 	background-image: url('images/logo.png');
 	float: left;
@@ -142,7 +144,7 @@ a.button, a.button-minimal {
 }
 .widget-assitance h2 {
 	font-size: 24px;
-	margin-bottom: 0px;
+	margin-bottom: 2px;
 }
 .widget-assitance p {
 	font-size: 14px;
@@ -155,7 +157,7 @@ a.button, a.button-minimal {
 .widget-assitance p > a {
 	border-bottom: 0 none;
 	color: #ff4e3f;
-	font-weight: bold;
+	font-weight: 700;
 	text-decoration: none;
 }
 .widget-assitance p > a:hover {
@@ -172,32 +174,54 @@ a.button, a.button-minimal {
 }
 .widget-quotes .widget-title {
 	font-size: 48px;
+    letter-spacing: -0.015em;
     margin: 0 0 10px 0;
 }
-.widget-quotes .p {
+.widget-quotes .widget-title span {
+	display: block;
+	font-size: 60px;
+	font-weight: 700;
+}
+.widget-quotes p {
+	color: #030000;
 	font-size: 22px;
 }
 .widget-quotes form {
 	margin-bottom: 30px;
 }
-.widget-quotes input {
+.widget-quotes .get-quotes-input {
 	border: 1px solid #4bcc4e;
 	color: #4bcc4e;
 	height: 47px;
 	line-height: 47px;
 	width: 203px;
 }
+.widget-quotes .get-quotes-input::-webkit-input-placeholder {  
+   color: #4bcc4e;  
+}
+.widget-quotes .get-quotes-input:-moz-placeholder {  
+   color: #4bcc4e;  
+}
+.widget-quotes .get-quotes-input::-moz-placeholder {  
+   color: #4bcc4e;  
+}
+.widget-quotes .get-quotes-input:-ms-input-placeholder {  
+   color: #4bcc4e;  
+}
+
 .widget-quotes button {
     float: right;
     width: 212px;
 }
 .widget-quotes p:last-child {
 	font-size: 16px;
+	font-weight: 400;
 	text-align: center;
 }
 .widget-quotes p:last-child a {
+	border-bottom: 1px solid #4bcc4e;
 	color: #4bcc4e;
-	font-weight: bold;
+	font-weight: 700;
 	margin-left: 10px;
 }
 
@@ -206,7 +230,7 @@ a.button, a.button-minimal {
 
 #home-featured {
 	background-color: rgba(255, 255, 255, 0.9);
-    bottom: 36px;
+    bottom: 35px;
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -225,14 +249,135 @@ a.button, a.button-minimal {
 #home-featured .widget:last-child {
 	border-right: 0 none;
 }
+#home-featured .widget .widget-title,
+.widget-list dt {
+	margin-top: -8px;
+}
 #home-featured .widget .widget-title {
 	color: #343031;
 	font-size: 24px;
+	margin-bottom: 15px;
+	position: relative;
 }
 #home-featured .widget .widget-title span {
 	color: #4bcc4e;
 	display: block;
+	font-weight: 700;
 }
+.widget-insurance-product .widget-title,
+.widget-insurance-state .widget-title {
+	padding-left: 40px;
+}
+.widget-insurance-product .widget-title:before,
+.widget-insurance-state .widget-title:before {
+	background-repeat: no-repeat;
+	content: '';
+	height: 28px;
+	left: 0;
+	position: absolute;
+	top: 6px;
+	width: 28px;
+}
+.widget-insurance-product .widget-title:before {
+	background-image: url('images/icon-pill.png');
+}
+.widget-insurance-state .widget-title:before {
+	background-image: url('images/icon-location.png');
+}
+
+#find-state-form .select-wrapper {
+	float: left;
+	position: relative;
+}
+#find-state-form .select-wrapper:after {
+	background-color: #fff;
+	background-image: url('images/icon-arrow-down.png');
+	background-repeat: no-repeat;
+	content: '';
+	height: 7px;
+	right: 7px;
+	position: absolute;
+	top: 14px;
+	width: 14px;
+}
+#home-featured .widget p {
+	margin-bottom: 18px;
+}
+#find-state-form .select {
+	background-color: #fff;
+	border: 1px solid #cccccc;
+	color: #909091;
+	font-size: 15px;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 27px 0 12px;
+	width: 269px;
+}
+#find-state-form .button-link {
+	background-color: transparent;
+	color: #4bcc4e;
+	float: right;
+	font-size: 16px;
+	height: auto;
+	line-height: 34px;
+	padding: 0;
+	text-decoration: underline;
+	text-transform: none;
+}
+.widget-list dt,
+.widget-list dd {
+	padding-left: 18px;
+}
+.widget-list dt {
+	color: #4bcc4e;
+	font-size: 18px;
+	position: relative;
+}
+.widget-list dt:before {
+	background-image: url('images/icon-arrow-right.png');
+	background-repeat: no-repeat;
+	content: '';
+	height: 11px;
+	left: 0;
+	position: absolute;
+	top: 5px;
+	width: 5px;
+}
+.widget-list dd {
+	color: #010108;
+	margin: 0 0 27px 0;
+}
+.widget-list dd:last-child {
+	margin: 0;
+}
+
+/* Home Answers
+---------------------------------------*/
+
+.answers-title {
+	font-size: 24px;
+	line-height: 1.5em;
+	margin-bottom: 80px;
+	padding-bottom: 25px;
+	position: relative;
+}
+.answers-title:after {
+	background-color: #d5d5d5;
+	bottom: 0;
+	content: '';
+	height: 1px;
+	left: 50%;
+	margin-left: -56px;
+	position: absolute;
+	width: 112px;
+}
+.answers-title span {
+	color: #4bcc4e;
+	display: block;
+	font-size: 48px;
+	font-weight: 700;
+}
+
 
 /* Useful Tools
 ---------------------------------------*/
@@ -249,7 +394,7 @@ a.button, a.button-minimal {
 }
 #useful-tools .widget-title {
 	font-size: 48px;
-	font-weight: bold;
+	font-weight: 700;
 	margin-bottom: 60px;
 }
 #useful-tools p {
@@ -342,7 +487,7 @@ a.button, a.button-minimal {
 .site-footer .widget {
 }
 .footer-widget-area .widget-title {
-	font-weight: bold;
+	font-weight: 700;
 }
 .site-footer .footer-disclaimer {
 	float: left;
